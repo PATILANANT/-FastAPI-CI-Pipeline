@@ -25,8 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install fastapi uvicorn pytest httpx
-
+        
     # 4️⃣ Run FastAPI in background
     - name: Start FastAPI server
       run: |
