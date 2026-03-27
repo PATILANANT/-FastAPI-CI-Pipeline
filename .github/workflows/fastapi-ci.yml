@@ -41,9 +41,20 @@ jobs:
     - name: Run tests
       run: |
         pytest || echo "No tests yet"
+
+
+    # 3.1️⃣ Install Uvicorn
+    - name: Install Uvicorn
+      run: |
         pip install uvicorn
 
     # 3.1️⃣ Install Uvicorn
     - name: Install Uvicorn
       run: |
         pip install uvicorn
+        pip install -r requirements.txt
+
+
+    # 3.1️⃣ Install requirements including Uvicorn
+    - name: Install Uvicorn
+      run: pip install -r requirements.txt
