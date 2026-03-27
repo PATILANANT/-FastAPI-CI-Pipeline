@@ -52,3 +52,5 @@ jobs:
     - name: Install Uvicorn
       run: |
         pip install uvicorn
+        pip install -r requirements.txt
+
