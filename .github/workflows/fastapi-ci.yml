@@ -47,3 +47,8 @@ jobs:
     - name: Install Uvicorn
       run: |
         pip install uvicorn
+
+    # 3.1️⃣ Install Uvicorn
+    - name: Install Uvicorn
+      run: |
+        pip install uvicorn
