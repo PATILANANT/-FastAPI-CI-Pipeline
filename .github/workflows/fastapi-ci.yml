@@ -41,7 +41,7 @@ jobs:
     - name: Run tests
       run: |
         pytest || echo "No tests yet"
-        pip install uvicorn
+
 
     # 3.1️⃣ Install Uvicorn
     - name: Install Uvicorn
